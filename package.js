@@ -1,7 +1,7 @@
 Package.describe({
   name: "gwendall:callbacks",
   summary: "Global handlers for Meteor.call callbacks on the client-side",
-  version: "0.1.1",
+  version: "0.1.2",
   git: "https://github.com/gwendall/meteor-callbacks"
 
 });

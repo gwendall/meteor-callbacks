@@ -1,6 +1,9 @@
 Callbacks = {};
 Callbacks.onCall = function(err, res) {
-  console.log("Method callback.", err, res);
+  console.log("Method callback.", {
+    error: err,
+    result: res
+  });
 }
 
 Function.prototype.clone = function() {
