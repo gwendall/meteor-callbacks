@@ -3,7 +3,16 @@ Meteor Callbacks
 
 Global callback for Meteor.call on the client-side.
 
-# Methods #
+Installation
+------------
+
+``` sh
+meteor add gwendall:callbacks
+```
+
+How to use
+----------
+
 **Callbacks.onCall**  
 Defines the global callback. It doesn't hijack the callbacks you may have declared when calling Meteor.call. They will just execute as expected.
 
