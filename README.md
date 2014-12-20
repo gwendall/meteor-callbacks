@@ -23,3 +23,7 @@ Example:
     console.log("Logs err, res for all your Meteor.call's!");
   });
 ```
+To do
+-----
+
+- Catch Mongo operations (insert, update, etc.) callbacks.
