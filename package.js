@@ -1,14 +1,16 @@
 Package.describe({
   name: "gwendall:callbacks",
   summary: "Global handlers for Meteor.call callbacks on the client-side",
-  version: "0.1.0"
+  version: "0.1.1",
+  git: "https://github.com/gwendall/meteor-callbacks"
+
 });
 
 Package.on_use(function (api, where) {
 
   api.use([
-    "mongo",
-    "underscore"
+    "mongo@1.0.9",
+    "underscore@1.0.1"
   ], "client");
 
   api.add_files([
